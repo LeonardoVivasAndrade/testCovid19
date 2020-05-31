@@ -1,0 +1,440 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Test COVID19</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style_card.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-center">
+                <h1>Test COVID19 - Con Sistema Experto</h1> <br>
+            </div>
+            
+            <div id="show_result1">
+                <h3>results show here...</h3>
+            </div>
+            <button onclick="validar()">Ejecutar</button>
+            <br><br>
+
+            <!-- Grid row 1 -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Tiene escalofrios?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p1" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p1" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p1" id="p1">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Tiene diarrea?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p2" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p2" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p2" id="p2">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Tiene dolor de garganta?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p3" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p3" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p3" id="p3">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row 1-->
+
+            <br>
+
+            <!-- Grid row 2 -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Ha tenido dolores musculares?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p4" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p4" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p4" id="p4">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Tiene dolor de cabeza?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p5" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p5" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p5" id="p5">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Ha tenido fiebre 38 grados o mas?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p6" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p6" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p6" id="p6">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row 2-->
+
+            <br>
+
+            <!-- Grid row 3 -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Tiene dificultad patra respirar?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p7" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p7" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p7" id="p7">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Ha tenido cansancio/debilidad?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p8" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p8" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p8" id="p8">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Ha viajado en los últimos 14 días?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p9" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p9" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p9" id="p9">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row 3-->
+
+            <br>
+
+            <!-- Grid row 4 -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Ha visitado áreas infectadas por Covid 19?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p10" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p10" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p10" id="p10">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="column-2 px-2 mb-r">
+                    <!--Card-->
+                    <div class="card default-color-dark">
+                        <!--Card image-->
+                        <div class="view">
+                            <img src="https://mdbootstrap.com/img/Photos/Slides/img%2810%29.jpg" class="card-img-top" alt="photo">
+                            <a href="#">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body text-center">
+                            <!--Title-->
+                            <h4 class="card-title white-text">¿Visitó o ha cuidado pacientes con covid 19 postivo?</h4>     
+                            <!--radio-->
+                            <div class="centrado form-group card-text centrado" >
+                                <div class="input-group ">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="p11" data-title="y">SI</a>
+                                        <a class="btn btn-danger btn-sm notActive" data-toggle="p11" data-title="n">NO</a>
+                                    </div>
+                                    <input type="hidden" name="p11" id="p11">
+                                </div>
+                            </div>
+                            <!--radio-->
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row 4-->            
+            <br>
+            <!-- Grid Cards-->  
+
+
+
+
+        </div>
+
+
+        <!-- Modal -->                        
+        <div class="modal fade" id="ventana" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mensaje</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="ln1"></p>
+                        <p id="ln2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="validar.js"></script>
+        <script src="prolog_ejec.js"></script>
+        <script src="tau-prolog.js"></script>
+
+    </body>
+</html>
