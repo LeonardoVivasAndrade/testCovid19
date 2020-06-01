@@ -34,7 +34,7 @@ function loadProlog() {
         $(".modal-body #ln1").text(title );
         $(".modal-body #ln2").text(cuerpo);
         $("#ventana").modal('show');
-        document.getElementById('show_result1').innerHTML += '<div>' + cuerpo + '</div>';
+        document.getElementById('show_result1').innerHTML = '<div>' + cuerpo + '</div>';
     }
 
     //Funcion answer para obtener la respuesta de Prolog
