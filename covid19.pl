@@ -10,7 +10,7 @@ score2(0,A):- A=n,!.
 score3(3,A):- A=y,!.
 score3(0,A):- A=n,!.
 
-result('Puede estar relacionado con estrés', Pts):- Pts>=0, Pts=<2, !.
-result('Hidrate adecuadamente, buena higiene personal, observe y revalore', Pts):- Pts>=3, Pts=<5, !.
-result('Debe ir a una consulta médica ', Pts):- Pts>=6, Pts=<12, !.
-result('Reportese de inmediato a epidemiología ', Pts):- Pts>=13, Pts=<20, !.
+result('Sus síntomas pueden estar relacionados con estrés.', Pts):- Pts>=0, Pts=<2, !.
+result('Hidrátate adecuadamente, mantén una buena higiene personal, observe y revalore.', Pts):- Pts>=3, Pts=<5, !.
+result('Se recomienda ir a una consulta médica. ', Pts):- Pts>=6, Pts=<12, !.
+result('Repórtese de inmediato a epidemiología. ', Pts):- Pts>=13, Pts=<20, !.
