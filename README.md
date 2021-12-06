@@ -13,5 +13,5 @@ Para la integracion entre JavaScript y Prolog se utilizó el Script Tau-prolog.
 Proyecto realizado como trabajo en la materia de Inteligencia Artificial en el programa de Ingeniería de Sistemas de la Universidad Francisco de Paula Santader. Cúcuta, Colombia
 
 Autores:
-- Angel Leonardo Vivas Andrade
-- Jose Eduardo Rozo Molina 
+* [Jose Eduardo Rozo](https://github.com/joseedye)
+* [Angel Vivas](https://github.com/LeonardoVivasAndrade)
